@@ -16,9 +16,3 @@ include'./katorymnd_session.php';
  //$katorymnd_session->set_session('name', 'John'); // set session
 
 //print $katorymnd_session->get_session('name');
-
-//$katorymnd_session->destroy_session(); // delete  session
-
-
-
-//$katorymnd_session->display_session(); // display session
