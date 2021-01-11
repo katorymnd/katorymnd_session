@@ -8,4 +8,4 @@
  */
 include'./katorymnd_session.php';
 
-// sample
+// sample s
