@@ -49,11 +49,11 @@ class session
      * $katorymnd_session->set_session('names', 'smith'); // set session
      * 
      * call the session
-     * $katorymnd_session->get_session('name'); [smith]
+     * $katorymnd_session->get_session('names'); [smith]
      * 
      * check session  to retrict page access
      * 
-     *  if($katorymnd_session->get_session('name') == true){
+     *  if($katorymnd_session->get_session('names') == true){
      * 
      * // login user
      * 
