@@ -8,37 +8,44 @@ please include **katorymnd_session.php** on every page that you need to use the 
 
 *example array*
 
-`$katorymnd_session->set_session ('name', array('name' => 'john','number' => '123',));`
+```PHP
+$katorymnd_session->set_session ('name', array('name' => 'john','number' => '123',));
 
- *//call the session*
+ //call the session
 
-`$katorymnd_session->get_session('name', 'number');`  *results*  `[123]`
+$katorymnd_session->get_session('name', 'number');  /*results*/ [123]
+```
 
 
 *Another example*
 
-**`$katorymnd_session->set_session('names', 'smith');`***// set session*      
+```PHP $katorymnd_session->set_session('names', 'smith');//set session*      
 
-     *// call the session*
+     // call the session
 
-     `print $katorymnd_session->get_session('names');`
- *results* `[smith]`
+     print $katorymnd_session->get_session('names');
+ /*results*/ [smith]
 
-          *// check session  to retrict page access*      
+          // check session  to retrict page access     
 
-      `if($katorymnd_session->get_session('names') == true){`      
+      if($katorymnd_session->get_session('names') == true){      
 
-     *// login user*      
+     // login user     
 
-        `}else{`     
+        }else{     
 
-     *//no user session*     
+     //no user session     
 
-    ` }`
+     }
 
-**Display available sessions in array**
+//Display available sessions in array
+$katorymnd_session->display_session(); 
 
-`$katorymnd_session->display_session(); `
+/**
+ * Delete session
+ */
 
-**Delete session**
-`$katorymnd_session->destroy_session();` *// delete  session*
+$katorymnd_session->destroy_session(); // delete  session
+
+```
+
