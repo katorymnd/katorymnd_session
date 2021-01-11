@@ -114,16 +114,4 @@ class session
 
 $katorymnd_session = new session(); // intiatiate
 $katorymnd_session->start_session();
-//$katorymnd_session->set_session('name', 'dog'); // set session
-//$katorymnd_session->set_session('boo', 'gat'); // set session
 
-//print $katorymnd_session->get_session('name', 'number');
-print $katorymnd_session->get_session('boo');
-
-$katorymnd_session->destroy_session(); // delete  session
-
-
-
-//$katorymnd_session->display_session(); // display session
-
-print 'okay';
