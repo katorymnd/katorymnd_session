@@ -19,7 +19,9 @@ $katorymnd_session->get_session('name', 'number');  /*results*/ [123]
 
 *Another example*
 
-```PHP $katorymnd_session->set_session('names', 'smith');//set session*      
+```PHP 
+
+$katorymnd_session->set_session('names', 'smith'); //set session 
 
      // call the session
 
